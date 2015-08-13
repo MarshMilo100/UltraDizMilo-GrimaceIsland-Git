@@ -1,0 +1,12 @@
+{
+    "name": "page",
+    "texture": "page",
+	"type": "item",
+	"ore-dictionary": [
+		"itemPage"
+	],
+	"lore": [
+		"Missing Quest Book Page!"
+	],
+	"max-stack-size": 64
+}

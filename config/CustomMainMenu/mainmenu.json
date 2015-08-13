@@ -1,0 +1,266 @@
+{
+    "images":
+    {
+		"screen":
+		{
+            "image" : "custommainmenu:textures/gui/overlay1.png",
+			"posX" : 0,
+            "posY" : -40,
+            "width" : 120,
+            "height" : 1100,
+            "alignment" : "top_left"
+		},
+		"title":
+        {
+            "image" : "custommainmenu:textures/gui/udm_icon1.png",
+            "posX" : 130,
+            "posY" : -20,
+            "width" : 150,
+            "height" : 150,
+            "alignment" : "top_left"
+        },
+		"words":
+        {
+            "image" : "custommainmenu:textures/gui/title4.png",
+            "posX" : 100,
+            "posY" : 95,
+            "width" : 226,
+            "height" : 37,
+            "alignment" : "top_left"
+        }
+    },
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "Singleplayer",
+            "posX" : 25,
+            "posY" : -70,
+            "width" : 70,
+            "height" : 20,
+			"texture" : "custommainmenu:textures/gui/button3.png",
+			"alignment" : "left_center",
+			"hoverText" : "So Lonely!",
+			"action" :
+			{
+				"type" : "openGui",
+				"gui" : "singleplayer"
+			}
+        },
+        "multiplayer":
+        {
+            "text" : "Multiplayer",
+            "posX" : 25,
+            "posY" : -50,
+            "width" : 70,
+            "height" : 20,
+			"texture" : "custommainmenu:textures/gui/button3.png",
+			"alignment" : "left_center",
+			"hoverText" : "So Friendly!",
+			"action" :
+			{
+				"type" : "openGui",
+				"gui" : "multiplayer"
+			}
+        },
+		"resourcepacks":
+        {
+            "text" : "Textures",
+            "posX" : 25,
+            "posY" : -30,
+            "width" : 70,
+            "height" : 20,
+			"texture" : "custommainmenu:textures/gui/button3.png",
+			"alignment" : "left_center",
+			"hoverText" : "So Pretty!",
+			"action" :
+			{
+				"type" : "openGui",
+				"gui" : "options.ressourcepacks"
+			}
+        },
+		"issues":
+        {
+            "text" : "Issues",
+            "posX" : 25,
+            "posY" : -10,
+            "width" : 70,
+            "height" : 20,
+			"texture" : "custommainmenu:textures/gui/button3.png",
+			"alignment" : "left_center",
+			"hoverText" : "Problems?",
+			"action" :
+			{
+				"type" : "openLink",
+				"link" : "https://github.com/MarshMilo100/UDM-Grimace-Island-Configs/issues"
+			}
+		},
+		"wiki":
+        {
+            "text" : "Wiki",
+            "posX" : 25,
+            "posY" : 10,
+            "width" : 70,
+            "height" : 20,
+			"texture" : "custommainmenu:textures/gui/button3.png",
+			"alignment" : "left_center",
+			"hoverText" : "Questions?",
+			"action" :
+			{
+				"type" : "openLink",
+				"link" : "https://github.com/MarshMilo100/UDM-Grimace-Island-Configs/wiki"
+			}
+		},
+        "mods":
+        {
+            "text" : "Mods",
+            "posX" : 25,
+            "posY" : 30,
+            "width" : 70,
+            "height" : 20,
+			"texture" : "custommainmenu:textures/gui/button3.png",
+			"alignment" : "left_center",
+			"hoverText" : "#modsactive# Loaded!",
+			"action" :
+			{
+				"type" : "openGui",
+				"gui" : "mods"
+			}
+        },
+        "quit":
+        {
+            "text" : "menu.quit",
+            "posX" : 25,
+            "posY" : 50,
+            "width" : 70,
+            "height" : 20,
+			"texture" : "custommainmenu:textures/gui/buttonexit.png",
+			"alignment" : "left_center",
+			"hoverText" : "Bye, Bye!",
+			"action" :
+			{
+				"type" : "quit"
+			}
+        },
+		"language":
+        {
+            "text" : "",
+            "posX" : 80,
+            "posY" : -27,
+            "width" : 20,
+            "height" : 20,
+			"texture" : "custommainmenu:textures/gui/languages2.png",
+			"alignment" : "bottom_left",
+			"tooltip" : "Languages",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+		"options":
+        {
+            "text" : "",
+            "posX" : 50,
+            "posY" : -27,
+            "width" : 20,
+            "height" : 20,
+			"texture" : "custommainmenu:textures/gui/options2.png",
+			"alignment" : "bottom_left",
+			"tooltip" : "Options",
+			"action" :
+			{
+				"type" : "openGui",
+				"gui" : "options"
+			}
+        },
+        "refresh":
+        {
+            "text" : "",
+            "posX" : 20,
+            "posY" : -27,
+            "width" : 20,
+            "height" : 20,
+			"texture" : "custommainmenu:textures/gui/refresh2.png",
+			"alignment" : "bottom_left",
+			"tooltip" : "Refresh Menu",
+            "action" :
+            {
+                "type" : "refresh"
+            }
+        }
+    },
+    "texts":
+    {
+		"modpack":
+        {
+            "text" : "UltraDizMilo Modpacks - Grimace Island",
+            "posX" : 109,
+            "posY" : -50,
+            "color" : 10194114,
+			"alignment" : "bottom_left"
+        },
+		"modpack_2":
+        {
+            "text" : "A Hardcore Questing Modpack",
+            "posX" : 109,
+            "posY" : -40,
+            "color" : 10194114,
+			"alignment" : "bottom_left"
+        },
+		"created_by":
+        {
+            "text" : "Creatied By: MarshMilo100",
+            "posX" : 109,
+            "posY" : -30,
+            "color" : 9222338,
+			"alignment" : "bottom_left"
+        },
+		"assisted_by":
+        {
+            "text" : "Lore By: H4nyuuTheSecondPillowpet",
+            "posX" : 109,
+            "posY" : -20,
+            "color" : 9222338,
+			"alignment" : "bottom_left"
+        },
+		"inspiredby":
+        {
+            "text" : "Inspried By: zachmarcell1, Kiddizaster, Jessalinesquared, ZeldaZoom",
+            "posX" : 109,
+            "posY" : -10,
+            "color" : 9222338,
+			"alignment" : "bottom_left"
+        },
+		"forgestuff":
+        {
+            "text" : "Forge #forgeversion#",
+            "posX" : -95,
+            "posY" : -10,
+            "color" : 9222338,
+			"alignment" : "bottom_right"
+        },
+		"gamestuff":
+        {
+            "text" : "Minecraft #mcversion#",
+            "posX" : -80,
+            "posY" : -20,
+            "color" : 9222338,
+			"alignment" : "bottom_right"
+        }
+    },
+    "other":
+    {
+        "splash-text":
+        {
+            "posX" : 70,
+            "posY" : 60,
+            "color" : 9222338,
+			"alignment" : "top_left"
+        },
+        "background":
+        {
+            "image" : "custommainmenu:textures/gui/background/background1.png"
+        }
+    }
+}
