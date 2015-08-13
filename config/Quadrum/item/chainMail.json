@@ -1,9 +1,0 @@
-{
-	"name": "chainmail",
-	"texture": "chainmail",
-	"type": "item",
-	"max-stack-size": 64,
-	"ore-dictionary": [
-		"itemChainmail"
-	]
-}
