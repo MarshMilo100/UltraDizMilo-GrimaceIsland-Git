@@ -1,0 +1,9 @@
+{
+    "name": "chain",
+    "texture": "chain",
+	"type": "item",
+	"ore-dictionary": [
+		"itemChain"
+	],
+	"max-stack-size": 64
+}

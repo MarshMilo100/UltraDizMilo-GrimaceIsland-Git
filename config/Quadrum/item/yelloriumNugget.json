@@ -1,0 +1,10 @@
+{
+	"name": "yelloriumNugget",
+	"texture": "yelloriumNugget",
+	"type": "item",
+	"ore-dictionary": [
+		"nuggetYellorium",
+		"nuggetUranium"
+	],
+	"max-stack-size": 64
+}
