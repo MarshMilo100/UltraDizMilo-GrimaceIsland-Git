@@ -1,0 +1,13 @@
+#
+recipes.remove(<TConstruct:heartCanister:2>);
+recipes.remove(<TConstruct:heartCanister:4>);
+recipes.remove(<TConstruct:heartCanister:6>);
+#
+recipes.addShapeless(<TConstruct:heartCanister:2>,[<TConstruct:heartCanister:1>,<TConstruct:materials:8>,<TConstruct:heartCanister>,<minecraft:golden_apple>]);
+recipes.addShapeless(<TConstruct:heartCanister:4>,[<TConstruct:heartCanister:3>,<TConstruct:heartCanister:2>,<TConstruct:diamondApple>]);
+recipes.addShapeless(<TConstruct:heartCanister:6>,[<TConstruct:heartCanister:5>,<TConstruct:heartCanister:4>,<minecraft:golden_apple:1>]);
+#
+recipes.addShaped(<TConstruct:heartCanister:3>,[[<ore:glowstone>,<ore:glowstone>,<ore:glowstone>],[<ore:glowstone>,<TConstruct:heartCanister:1>,<ore:glowstone>],[<ore:glowstone>,<ore:glowstone>,<ore:glowstone>]]);
+recipes.addShaped(<TConstruct:heartCanister:5>,[[<ore:gemEmerald>,<ore:gemEmerald>,<ore:gemEmerald>],[<ore:gemEmerald>,<TConstruct:heartCanister:3>,<ore:gemEmerald>],[<ore:gemEmerald>,<ore:gemEmerald>,<ore:gemEmerald>]]);
+recipes.addShapeless(<difficultlife:dl.heart>,[<TConstruct:heartCanister:1>,<TConstruct:heartCanister:3>,<TConstruct:heartCanister:5>,<TConstruct:heartCanister>]);
+#
