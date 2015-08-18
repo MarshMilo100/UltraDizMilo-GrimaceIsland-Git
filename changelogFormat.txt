@@ -1,0 +1,27 @@
+--[update number]--
+
+Mod Updates:
+	- [mod]
+	- [mod_1]
+
+Mod Additions:
+	- [mod]
+	- [mod_1]
+
+Mod Removals:
+	- [mod]
+	- [mod_1]
+
+Config Changes:
+	- config/*[folder]*/[config].cfg
+		[config options changed]
+	- config/*[folder]*/[config].cfg
+		[config options changed]
+
+Uncategorized Changes:
+	- [change]
+	- [change_1]
+
+Removed:
+	- [file]
+	- [file_1]
