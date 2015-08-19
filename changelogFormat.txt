@@ -14,14 +14,12 @@ Mod Removals:
 
 Config Changes:
 	- config/*[folder]*/[config].cfg
-		[config options changed]
-	- config/*[folder]*/[config].cfg
-		[config options changed]
+		- [removed config option]
+		+ [added config option]
+	- config/*[folder]*/[config_1].cfg
+		- [removed config option_1]
+		+ [added config ootion_1]
 
 Uncategorized Changes:
 	- [change]
 	- [change_1]
-
-Removed:
-	- [file]
-	- [file_1]
